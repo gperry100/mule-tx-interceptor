@@ -1,0 +1,60 @@
+# Java defaults (https://github.com/github/gitignore/blob/master/Java.gitignore) #
+# --- #
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+.DS_Store
+# --- #
+# Eclipse-specific (https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore) #
+# --- #
+*.pydevproject
+.metadata
+**/api/**
+**/bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*.ini
+*.log
+*.lic
+*~.nib
+*.iml
+local.properties
+.settings/
+.loadpath
+# You may want to remove the sharp symbols here if you are using Maven
+.project
+.classpath
+.mule
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+# --------------- #
+# Studio-specific #
+# --------------- #
+.studio/
+flows/
+target/
+**/*.mflow
+mule-project.xml
+catalog/
+studio_id.xml
+out.txt
+**/test/resources/sample_data/
+# --------------- #
+# IntelliJ-specific #
+# --------------- #
+.idea/
+# --------------- #
+# Logback Only    #
+# --------------- #
+log4j2*.xml
