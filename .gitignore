@@ -54,7 +54,3 @@ out.txt
 # IntelliJ-specific #
 # --------------- #
 .idea/
-# --------------- #
-# Logback Only    #
-# --------------- #
-log4j2*.xml
